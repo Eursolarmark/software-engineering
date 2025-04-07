@@ -1,0 +1,87 @@
+User Requirements (Customer Interface):
+
+    User Registration and Login:
+
+        Users should be able to register an account using their email and password.
+
+        After logging in, users can manage their bookings and account details.
+
+        Provide a "forgot password" option to allow users to reset their passwords.
+
+    Select and Book Scooters:
+
+        Users should be able to view nearby scooters and select a specific scooter for booking.
+
+        Users can view the real-time location and availability of scooters.
+
+        Users should have the option to book for a short term (pay per session) or long term (weekly/monthly subscription).
+
+    View Usage History and Statistics:
+
+        Users should be able to view detailed information about each booking, including duration and cost.
+
+        Users can check their historical booking records and see accumulated costs and usage time for each period.
+
+        Provide a dashboard displaying the total usage time, total spending, and most frequently used scooters.
+
+    Extend Booking:
+
+        If a user has an ongoing booking and wants to continue using the scooter, they should be able to extend the booking (e.g., extend by the hour).
+
+    Report Issues and Feedback:
+
+        Users can report scooter faults or issues (e.g., broken, malfunctioning).
+
+        Users should be able to view the status of their reported issues and receive updates or resolutions.
+
+    Payment and Billing:
+
+        Users should be able to view the costs of each booking and proceed with payment.
+
+        The system should support multiple payment methods, such as credit cards and e-wallets.
+
+        Provide invoicing features, allowing users to download and view past invoices.
+
+    Discounts and Promotions:
+
+        The system should offer discounts for long-term users or frequent riders (e.g., users who ride over 6 hours a week).
+
+        Users should be able to view available discounts and promotional offers.
+
+User Requirements (Management Interface):
+
+    User Data Management:
+
+        Administrators should be able to view detailed information for all registered users, including contact information, booking history, and payment status.
+
+        Provide filtering and search functionality to manage large amounts of user data.
+
+    Scooter Management:
+
+        Administrators can monitor the real-time status of scooters (e.g., whether in use, under maintenance).
+
+        Admins can manually update and mark scooters as available, under repair, or unavailable.
+
+    Handle User Issues and Feedback:
+
+        Administrators can view and track user-reported issues and resolve them.
+
+        Admins should be able to prioritize feedback based on urgency and severity.
+
+    Pricing and Promotion Management:
+
+        Admins should be able to configure scooter rental prices (e.g., per hour, per day, per week).
+
+        Admins should be able to create and manage discount strategies (e.g., frequent user discounts, holiday promotions).
+
+    Financial and Revenue Reporting:
+
+        Administrators should be able to view estimated revenues based on registered customers and bookings.
+
+        Provide financial reports showing total revenue, bookings, and usage statistics for different time periods.
+
+    Permissions and Security Management:
+
+        Administrators can set different user roles and permissions to ensure that users can access only relevant functions.
+
+        Provide login audits and security settings to prevent unauthorized access.
